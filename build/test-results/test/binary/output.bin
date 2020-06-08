@@ -1,0 +1,7 @@
+x01:52:31.044 [Test worker] INFO ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active
+]01:52:31.319 [DefaultDispatcher-worker-1 @request#1] DEBUG ktor.test - Trace for [Snowflake]
+O/, segment:0 -> SUCCESS; Parameters [name=[Snowflake]] @ /{name}/(method:GET))
+R  /(method:GET), segment:0 -> FAILURE "Not all segments matched" @ /(method:GET))
+8  /{name}, segment:1 -> SUCCESS @ /{name}/(method:GET))
+G    /{name}/(method:GET), segment:1 -> SUCCESS @ /{name}/(method:GET))
+
